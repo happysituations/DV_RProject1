@@ -15,7 +15,7 @@ ggplot() +
   scale_x_discrete() +
   scale_y_continuous() +
   facet_grid(PCLASS~SURVIVED, labeller=label_both) +
-  labs(title='Titanic') +
+  labs(title='Titanic where age <= 10') +
   labs(x="SURVIVED", y=paste("FARE")) +
   layer(data=df, 
         mapping=aes(x=SEX, y=as.numeric(as.character(FARE)), color=SEX), 
