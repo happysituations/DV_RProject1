@@ -14,7 +14,7 @@ summary(cars)
 ```
 
 ```{r}
-summary(diamonds)
+summary(df)
 ```
 
 You can also embed plots, for example:
