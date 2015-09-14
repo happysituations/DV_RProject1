@@ -13,17 +13,22 @@ Print out a summary of the Titanic database:
 summary(df)
 ```
 
-First plot:
+Head of the dataframe:
+```{r}
+head(df)
+```
+  
+First plot:  
 ![](../02 Visualizations/Plot1.png) 
 
-Second plot:
+Second plot:  
 ![](../02 Visualizations/Plot2.png)
 
-Third plot:
+Third plot:  
 ![](../02 Visualizations/Plot3.png)
 
-Fourth plot:
+Fourth plot:  
 ![](../02 Visualizations/Plot4.png)
 
-Fifth plot
+Fifth plot:  
 ![](../02 Visualizations/Plot5.png)
