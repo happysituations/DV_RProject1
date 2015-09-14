@@ -13,13 +13,17 @@ Print out a summary of the Titanic database:
 summary(df)
 ```
 
-
+First plot:
 ![](../02 Visualizations/Plot1.png) 
 
-You can also embed plots, for example:
+Second plot:
+![](../02 Visualizations/Plot2.png)
 
-```{r, echo=FALSE}
-plot(Titanic)
-```
+Third plot:
+![](../02 Visualizations/Plot3.png)
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Fourth plot:
+![](../02 Visualizations/Plot4.png)
+
+Fifth plot
+![](../02 Visualizations/Plot5.png)
