@@ -19,7 +19,8 @@ Head of the dataframe:
 head(df)
 ```
 
-### First plot: 
+### First plot:
+
 ```
 require("jsonlite")
 require("RCurl")

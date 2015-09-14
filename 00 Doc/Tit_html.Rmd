@@ -1,0 +1,35 @@
+---
+title: "Titanic Documentation"
+date: "September 14, 2015"
+output: html_document
+---
+To retrieve the data from the database:
+```{r}
+source("../01 Data/TitanicData.R", echo = FALSE)
+```
+
+Print out a summary of the Titanic database:
+```{r}
+summary(df)
+```
+
+Head of the dataframe:
+```{r}
+head(df)
+```
+  
+First plot: 
+This plot shows the relationship between the fare paid for each ticket and the age of the person whos purchased said ticket. Additionally, the datat points are partiitioned by color (green or pink) to distinguish whether the purchaser was male or female. The data shows a heavy density of tickets purchases where $0 <= the cost of the ticket <= $100. Within this set, there is also a dense population of data that pertains to 20 yrs <= the age of the passanger <= 40. Therefore, we can conclude that the majority of 20-40 year olds purchased tickets that were less than or equal to $100.
+![](../02 Visualizations/Plot1.png) 
+
+Second plot:  
+![](../02 Visualizations/Plot2.png)
+
+Third plot:  
+![](../02 Visualizations/Plot3.png)
+
+Fourth plot:  
+![](../02 Visualizations/Plot4.png)
+
+Fifth plot:  
+![](../02 Visualizations/Plot5.png)
