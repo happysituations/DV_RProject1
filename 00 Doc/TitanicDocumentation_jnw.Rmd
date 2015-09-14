@@ -1,0 +1,25 @@
+---
+title: "Titanic Documentation"
+date: "September 14, 2015"
+output: html_document
+---
+To retrieve the data from the database:
+```{r}
+source("../01 Data/TitanicData.R", echo = FALSE)
+```
+
+Print out a summary of the Titanic database:
+```{r}
+summary(df)
+```
+
+
+![](../02 Visualizations/Plot1.png) 
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(Titanic)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
